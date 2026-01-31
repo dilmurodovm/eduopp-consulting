@@ -255,7 +255,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12 max-w-5xl mx-auto">
             {[
               { icon: Award, label: "Founded 2021 in Atlanta, Georgia, USA" },
               { icon: Target, label: "Shaping education for global innovation" },
