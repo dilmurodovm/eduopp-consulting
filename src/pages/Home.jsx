@@ -259,7 +259,6 @@ export default function Home() {
             {[
               { icon: Award, label: "Founded 2021 in Atlanta, Georgia, USA" },
               { icon: Target, label: "Shaping education for global innovation" },
-              { icon: Building2, label: "Partners: Emory & Wake Forest" },
               { icon: Shield, label: "Higher Ed Expertise & Quality Assurance" }
             ].map((item, index) => (
               <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-6 text-center border border-white/10">
