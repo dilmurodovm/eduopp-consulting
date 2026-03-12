@@ -255,10 +255,11 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
             {[
               { icon: Award, label: "Founded 2021 in Atlanta, Georgia, USA" },
               { icon: Target, label: "Shaping education for global innovation" },
+              { icon: Building2, label: "Partners: Emory & Wake Forest" },
               { icon: Shield, label: "Higher Ed Expertise & Quality Assurance" }
             ].map((item, index) => (
               <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-6 text-center border border-white/10">
@@ -361,13 +362,21 @@ export default function Home() {
                 <p className="text-gray-600">Submit your application with a one-time application fee</p>
               </div>
               <div className="bg-[#5D1A2D]/5 rounded-xl p-6 text-center">
+                <div className="flex items-center justify-center gap-2 mb-4">
+                  <CreditCard className="w-5 h-5 text-[#5D1A2D]" />
+                  <span className="text-[#5D1A2D] font-medium">Application Fee Required</span>
+                </div>
+                <p className="text-gray-600 text-sm mb-6">
+                  A one-time application fee is required before submitting your consultation request.
+                </p>
                 <a
                   href="https://forms.gle/Ag4Qv19xWb6FYKpJ6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-[#5D1A2D] text-white font-medium rounded-xl hover:bg-[#4A1424] transition-all duration-300 shadow-lg shadow-[#5D1A2D]/20"
                 >
-                  Submit Application
+                  <CreditCard className="w-5 h-5" />
+                  Pay & Submit Application
                 </a>
               </div>
             </div>
