@@ -359,7 +359,7 @@ export default function Home() {
             <div className="mb-8">
               <div className="text-center mb-6">
                 <h3 className="text-xl font-semibold text-[#1A1A1A] mb-2">Ready to Apply?</h3>
-                <p className="text-gray-600">Submit your application with a one-time application fee</p>
+                <p className="text-gray-600">Submit your consultation request and our team will contact you shortly.</p>
               </div>
               <div className="bg-[#5D1A2D]/5 rounded-xl p-6 text-center">
                 <div className="flex items-center justify-center gap-2 mb-4">
